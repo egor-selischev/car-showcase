@@ -1,0 +1,150 @@
+.container {
+  top: 150px;
+  width: 100%;
+  position: absolute;
+}
+
+.name {
+  margin-left: 250px;
+}
+
+.container__car {
+  margin-left: 250px;
+  display: flex;
+  gap: 20px;
+}
+
+.container__slider {
+  height: fit-content;
+  width: fit-content;
+}
+
+.container__slider img {
+  border-radius: 10px;
+  height: 378px;
+}
+
+.car__title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 14px;
+  letter-spacing: 0.03em;
+}
+
+.car__vin {
+  font-size: 10px;
+  color: #9AA7AD;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 341px;
+  background: #F4F7F8;
+  border-radius: 8px;
+  height: 50px;
+  padding: 20px 30px;
+}
+
+.car__price {
+  color: #CA0100;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.car__guarantee {
+  color: #010C13;
+  margin-bottom: 20px;
+}
+
+.car__guarantee img {
+  height: 22.75px;
+  width: 16px;
+  border-radius: 0px;
+  margin-right: 5px;
+}
+
+.characteristics__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 341px;
+  background: #F4F7F8;
+  border-radius: 8px;
+  height: fit-content;
+  padding: 20px 30px;
+  gap: 10px;
+}
+
+.characteristics__title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 14px;
+  letter-spacing: 0.03em;
+}
+
+.characteristics img {
+  width: 50px;
+}
+
+.characteristics__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.billboard {
+  display: flex;
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(102.95deg, #00A8CD 62.03%, #047DBF 110.97%);
+}
+
+.billboard__container {
+  z-index: 1;
+  margin: 100px 0 0 250px;
+  width: 400px;
+}
+
+.billboard__title {
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.billboard__description {
+  margin-bottom: 15px;
+  color: #fff;
+  width: 300px;
+}
+
+.billboard__container button {
+  width: 150px;
+  background: #CA0100;
+  color: #fff;
+  padding: 13px 0;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  border-radius: 5px;
+}
+
+.billboard__container button:hover {
+  cursor: pointer;
+  background: #980605;
+}
+
+.billboard img {
+  position: absolute;
+  left: 300px;
+  z-index: 0;
+  height: 400px;
+}

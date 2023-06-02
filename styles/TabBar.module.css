@@ -1,0 +1,59 @@
+.tab {
+  display: flex;
+  position: absolute;
+  gap: 100px;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 0px;
+  width: 500px;
+  height: 209px;
+  background: #FFFFFF;
+  border-bottom: 2px solid #9AA7AD;
+}
+
+.brands button {
+  width: fit-content;
+  background: #fff;
+  height: fit-content;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  border: 2px solid #010C13;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.brands button:hover {
+  cursor: pointer;
+}
+
+.active {
+  background: #ccc;
+}
+.brands button:focus {
+  background: #ccc;
+}
+.title {
+  width: 101px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.showcase {
+  width: 600px;
+}
+
+

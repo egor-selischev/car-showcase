@@ -1,0 +1,26 @@
+.slider {
+  width: 600px;
+  height: 368px;
+}
+
+
+.container__slider {
+  position: relative;
+  margin: 0 auto;
+  width: 550px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container__slider img {
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 auto auto auto;
+}
+
+.swiper__scrollbar {
+  cursor: pointer;
+  background-color: #9AA7AD;
+}

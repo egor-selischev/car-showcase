@@ -1,0 +1,45 @@
+.showcase__container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.showcase__imgBlock {
+  width: 240px;
+  height: 200px;
+}
+
+.showcase__img {
+  width: 240px;
+}
+
+.showcase__car {
+  margin: 20px;
+}
+
+.showcase__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.showcase__engine {
+  margin-bottom: 10px;
+  color: #9AA7AD;
+}
+
+.showcase__link button {
+  width: 100%;
+  background: #CA0100;
+  color: #fff;
+  padding: 13px 0;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  border-radius: 5px;
+}
+
+.showcase__link button:hover {
+  cursor: pointer;
+  background: #980605;
+}
